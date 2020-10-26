@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/tendo/.dotnet/store/|arch|/|tfm|",
+      "/home/tendo/.nuget/packages"
+    ]
+  }
+}

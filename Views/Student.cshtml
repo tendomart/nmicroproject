@@ -1,0 +1,12 @@
+@model IEnumerable<Student>
+    @{
+        ViewBag.Title ="Students";
+    }
+    <h1>@ViewBag.Title</h1>
+    <ul>
+@foreach (var student in Model)
+{
+    <li>@student.firstName @student.lastName @student.course</li>
+}
+</ul>
+<div>@Html.ActionLink("New", "create" ,"delete")
